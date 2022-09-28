@@ -1,4 +1,3 @@
-# Adding tasks into one text widget
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
@@ -32,6 +31,7 @@ def delete(event):
     entry.delete(0, END)
 
 add_task = tk.Button(root, text="Add task", height=2, width=20, font=50, command=new_task)
+# when event binding, you have to bind to the widget (or just root) that the user is in (using, focused) when the shortcut is clicked
 root.bind('<Control-r>', nsk)
 root.bind('<Control-t>', delete)
 add_task.pack(pady=5)
