@@ -1,3 +1,4 @@
+# Making new text widget for every new task
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
