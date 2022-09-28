@@ -1,3 +1,4 @@
+# Adding tasks into one text widget
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
